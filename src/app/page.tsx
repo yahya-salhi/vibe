@@ -1,11 +1,3 @@
-import { Button } from "@/components/ui/button";
-
-const Page = () => {
-  return (
-    <div>
-      <Button variant="destructive">Button</Button>
-    </div>
-  );
-};
-
-export default Page;
+export default async function Home() {
+  return <div>hello</div>;
+}
